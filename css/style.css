@@ -27,6 +27,9 @@ body {
     width: 100%;
     padding: 10px;
 }
+main.row {
+    padding: 0 10px;
+}
 .col-6 {
     width: 50%;
 }
@@ -40,6 +43,15 @@ body {
 }
 h1 {
     font-size: 50px;
+}
+#message {
+    background-color: rgba(100, 100, 255, 0.5);
+    color: rgb(0, 0, 255);
+    padding: 10px;
+    border: thin dashed blue;
+    margin: 20px 50px 0px;
+    opacity: 0;
+    height: 40px;
 }
 .locale {
     min-height: 200px;
